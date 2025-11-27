@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car MPG Prediction</title>
+</head>
+
+<body>
+    <h1>Car MPG Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="cylinders">Cylinders:</label>
+        <input type="text" name="cylinders" required><br>
+        <label for="displacement">Displacement:</label>
+        <input type="text" name="displacement" required><br>
+        <label for="horsepower">Horsepower:</label>
+        <input type="text" name="horsepower" required><br>
+        <label for="weight">Weight:</label>
+        <input type="text" name="weight" required><br>
+        <label for="acceleration">Acceleration:</label>
+        <input type="text" name="acceleration" required><br>
+        <label for="model_year">Model Year:</label>
+        <input type="text" name="model_year" required><br>
+        <label for="origin">Origin:</label>
+        <input type="text" name="origin" required><br>
+        <button type="submit">Predict</button>
+    </form>
+
+   {% if prediction_test %}
+        <h2>{{ prediction_test }}</h2>
+    {% endif %}
+</body>
+</html>
