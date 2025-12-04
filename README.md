@@ -1,5 +1,5 @@
 # MPG-Predictions
-<<<<<<< HEAD
+
 Lab of MPG Predictions
 
 
@@ -24,14 +24,15 @@ I found that using a Linear Regression model 60% of the horsepower effects on mp
 
 
 ## Data Cleaning 
-=======
+
 MPG Predictions Analysts and creating a Linear Regression Model 
 
 
 
 ## Problem Statement
 This project is to understand the relationship between mpg and horsepower by creating a Linear Regression Model.
->>>>>>> 052ac97992f45a169901a7f73f965fe4ab19baf3
+
+
 
 
 
